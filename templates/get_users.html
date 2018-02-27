@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {%for singleuser in users%}
+    <ul>
+        <li><a href="profile/{{singleuser.username}}">{{singleuser.username}}</a></li>
+    </ul>
+    {%endfor%}
+</body>
+</html>
