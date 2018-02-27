@@ -46,8 +46,6 @@ security = Security(app, user_datastore)
 #     db.create_all()
 #     user_datastore.create_user(email='abc@xyz.com', password='test123')
 #     db.session.commit()
-
-
 @app.route('/')
 def index():
     return render_template('add_user.html')
